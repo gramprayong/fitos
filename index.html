@@ -748,6 +748,33 @@ const LOCAL_DB=[
   {id:'r1',name:"McDonald's Grilled Chicken Salad",src:"McDonald's",kcal:150,protein:22,carbs:8,fat:4,sugar:4,sodium:380,serving:'1 box',flags:['HIGH PROTEIN'],grade:'A'},
   {id:'r2',name:'Subway 6-inch Chicken Teriyaki',src:'Subway',kcal:370,protein:26,carbs:48,fat:7,sugar:8,sodium:820,serving:'6 inch',flags:['HIGH SODIUM'],grade:'B'},
   {id:'r3',name:'MK Sukiyaki Set',src:'MK Restaurant',kcal:380,protein:28,carbs:30,fat:12,sugar:6,sodium:1100,serving:'Standard',flags:['HIGH SODIUM'],grade:'B'},
+
+  // ── ADDITIONAL THAI STREET FOOD ──
+  {id:'t20',name:'Khao Khai Jiao (Omelette Rice)',thai:'ข้าวไข่เจียว',src:'Street Food',kcal:520,protein:18,carbs:58,fat:22,sugar:2,sodium:780,serving:'1 plate',flags:['HIGH FAT'],grade:'B',note:'Classic quick meal. Request less oil — saves ~100 kcal'},
+  {id:'t21',name:'Khai Jiao (Omelette only)',thai:'ไข่เจียว',src:'Street Food',kcal:220,protein:12,carbs:2,fat:18,sugar:0,sodium:420,serving:'1 omelette',flags:['HIGH FAT'],grade:'C',note:'High oil. Request less oil เอาน้ำมันน้อย'},
+  {id:'t22',name:'Khao Pad Krapow Khai (Basil Fried Rice + Egg)',thai:'ข้าวผัดกะเพราไข่',src:'Street Food',kcal:580,protein:22,carbs:65,fat:24,sugar:3,sodium:1050,serving:'1 plate',flags:['HIGH SODIUM','HIGH FAT'],grade:'C',note:'Delicious but heavy. Request less oil + less rice'},
+  {id:'t23',name:'Khao Tom (Rice Soup)',thai:'ข้าวต้ม',src:'Street Food',kcal:180,protein:12,carbs:28,fat:2,sugar:0,sodium:680,serving:'1 bowl',flags:[],grade:'A',note:'Light and easy on stomach. Good recovery meal'},
+  {id:'t24',name:'Gai Tod (Fried Chicken)',thai:'ไก่ทอด',src:'Street Food',kcal:320,protein:26,carbs:14,fat:18,sugar:0,sodium:620,serving:'2 pieces',flags:['HIGH FAT'],grade:'C',note:'Remove skin for better macro split'},
+  {id:'t25',name:'Moo Ping (Grilled Pork Skewer)',thai:'หมูปิ้ง',src:'Street Food',kcal:180,protein:16,carbs:8,fat:9,sugar:4,sodium:480,serving:'3 sticks',flags:[],grade:'A',note:'Great street protein snack. Cheap and accessible'},
+  {id:'t26',name:'Khao Niao Mamuang (Mango Sticky Rice)',thai:'ข้าวเหนียวมะม่วง',src:'Street Food',kcal:390,protein:5,carbs:72,fat:9,sugar:28,sodium:90,serving:'1 serving',flags:['HIGH SUGAR','HIGH CARB'],grade:'D',note:'Treat food. Max once a week'},
+  {id:'t27',name:'Pad See Ew (Chicken)',thai:'ผัดซีอิ๊วไก่',src:'Street Food',kcal:450,protein:24,carbs:52,fat:16,sugar:5,sodium:1100,serving:'1 plate',flags:['HIGH SODIUM','HIGH FAT'],grade:'C',note:'Request น้ำมันน้อย. High sodium from soy sauce'},
+  {id:'t28',name:'Rad Na (Chicken)',thai:'ราดหน้าไก่',src:'Street Food',kcal:420,protein:22,carbs:56,fat:12,sugar:4,sodium:980,serving:'1 plate',flags:['HIGH SODIUM'],grade:'C',note:'Gravy is high sodium. Moderate choice'},
+  {id:'t29',name:'Khao Moo Daeng (Red Pork Rice)',thai:'ข้าวหมูแดง',src:'Street Food',kcal:490,protein:28,carbs:58,fat:14,sugar:8,sodium:860,serving:'1 plate',flags:['MOD SUGAR'],grade:'B',note:'Good protein. Watch the sweet sauce portion'},
+  {id:'t30',name:'Guay Tiew Sen Lek (Noodle Soup)',thai:'ก๋วยเตี๋ยวเส้นเล็ก',src:'Street Food',kcal:280,protein:20,carbs:36,fat:6,sugar:2,sodium:1200,serving:'1 bowl',flags:['HIGH SODIUM'],grade:'C',note:'Very high sodium from broth. Limit to 1 bowl'},
+  {id:'t31',name:'Khanom Jeen (Fermented Rice Noodle)',thai:'ขนมจีน',src:'Street Food',kcal:320,protein:14,carbs:52,fat:8,sugar:4,sodium:680,serving:'1 plate',flags:[],grade:'B',note:'Good with green curry. Lower sodium than most noodles'},
+  {id:'t32',name:'Tod Man Pla (Fish Cake)',thai:'ทอดมันปลา',src:'Street Food',kcal:240,protein:18,carbs:14,fat:12,sugar:3,sodium:520,serving:'5 pieces',flags:[],grade:'B',note:'Decent protein snack. Watch the sweet chili sauce'},
+  {id:'t33',name:'Yam Woon Sen (Glass Noodle Salad)',thai:'ยำวุ้นเส้น',src:'Street Food',kcal:180,protein:14,carbs:22,fat:4,sugar:5,sodium:720,serving:'1 plate',flags:[],grade:'A',note:'Light and high protein relative to calories'},
+  {id:'t34',name:'Pla Kapong Neung Manao (Steamed Sea Bass)',thai:'ปลากะพงนึ่งมะนาว',src:'Street Food',kcal:200,protein:38,carbs:6,fat:3,sugar:2,sodium:680,serving:'1 fish',flags:['HIGH PROTEIN'],grade:'A+',note:'Best fish dish. Very high protein, low fat'},
+  {id:'t35',name:'Gai Ob (Roasted Chicken)',thai:'ไก่อบ',src:'Street Food',kcal:280,protein:34,carbs:4,fat:14,sugar:2,sodium:520,serving:'1 portion',flags:['HIGH PROTEIN'],grade:'A',note:'Great protein. Less oil than fried versions'},
+
+  // ── ADDITIONAL 7-ELEVEN ──
+  {id:'s10',name:'Onigiri (Tuna)',thai:'โอนิกิริทูน่า',src:'7-Eleven',kcal:180,protein:8,carbs:32,fat:3,sugar:1,sodium:380,serving:'1 piece',flags:[],grade:'B',note:'Convenient carb+protein combo'},
+  {id:'s11',name:'Sandwhich Ham Egg',thai:'แซนวิชแฮมไข่',src:'7-Eleven',kcal:260,protein:13,carbs:30,fat:9,sugar:3,sodium:620,serving:'1 pack',flags:['MOD SODIUM'],grade:'B',note:'Emergency meal. Moderate protein'},
+  {id:'s12',name:'Protein Bar (generic)',thai:'โปรตีนบาร์',src:'7-Eleven',kcal:200,protein:20,carbs:20,fat:5,sugar:8,sodium:150,serving:'1 bar ~60g',flags:['HIGH PROTEIN'],grade:'A',note:'Varies by brand. Check label for exact macros'},
+  {id:'s13',name:'Corn (steamed)',thai:'ข้าวโพดนึ่ง',src:'7-Eleven',kcal:130,protein:4,carbs:28,fat:1,sugar:8,sodium:20,serving:'1 cob',flags:[],grade:'A',note:'Clean carb. Natural sugar only'},
+  {id:'s14',name:'Soy Milk (no sugar)',thai:'นมถั่วเหลืองไม่หวาน',src:'7-Eleven',kcal:80,protein:6,carbs:8,fat:2,sugar:2,sodium:120,serving:'1 box 250ml',flags:['HIGH PROTEIN'],grade:'A',note:'Good plant protein. Pick unsweetened version'},
+  {id:'s15',name:'Black Coffee (no sugar)',thai:'กาแฟดำไม่หวาน',src:'7-Eleven',kcal:5,protein:0,carbs:1,fat:0,sugar:0,sodium:5,serving:'1 cup',flags:[],grade:'A+',note:'Zero cal. Helps fasting and pre-workout'},
+  {id:'s16',name:'Banana (ripe)',thai:'กล้วยน้ำว้า',src:'7-Eleven/Market',kcal:90,protein:1,carbs:23,fat:0.3,sugar:12,sodium:1,serving:'1 medium',flags:[],grade:'A',note:'Perfect pre-run carb fuel. Natural sugar.'},
 ];
 
 const FOOD_PLANS={
