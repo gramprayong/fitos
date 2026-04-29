@@ -4,7 +4,7 @@ A complete personal fitness tracker built as a single HTML file. No server, no b
 
 ## 🚀 Live App
 
-**→ [Open FitOS](https://YOUR-USERNAME.github.io/fitos)**
+**→ [Open FitOS](https://gramprayong.github.io/fitos)**
 
 ## Features
 
